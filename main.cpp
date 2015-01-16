@@ -17,7 +17,17 @@
 #include <cstdio>
 #include <queue>
 #include <omp.h>
+#include <iostream>
+#include <cassert>
+#include <chrono>
 
+#include <vector>
+#include <map>
+#include <fstream>
+#include <string>
+#include <cmath> // for fabs()
+#include <iomanip>
+#include <sstream>
 #include <thread>
 #ifdef __APPLE__
 #define CAPW 1440/3 //screen resolution x / 3
@@ -42,8 +52,8 @@ void blur(Mat& image, int i, int k)
 {
 	try{
 		Mat subImg = image(Range(((image.rows/4)*(i)) , ((image.rows/4)*(i+1))),  Range(((image.cols/4)*(k)), ((image.cols/4)*(k+1)) ));
-		// medianBlur(subImg,subImg,97);	
-		bitwise_not(subImg, subImg);	
+		medianBlur(subImg,subImg, 97);	
+		//bitwise_not(subImg, subImg);	
 	}catch(...){};
 	
 }
@@ -54,8 +64,9 @@ int main(int argc, char *argv[]) {
 	// const int threadnum = 8;
 	int real_thread_num= 0;
 	vector<thread>threads;
+	chrono::system_clock::time_point startTime = chrono::system_clock::now();
 	Mat image = imread(string(argv[2]));
-	cout << image.cols << "x" << image.rows << endl;
+	// cout << image.cols << "x" << image.rows << endl;
 	omp_set_num_threads(threadnum);
 	int i;
 #pragma omp parallel for private(i) lastprivate(real_thread_num)
@@ -73,9 +84,17 @@ int main(int argc, char *argv[]) {
 //	for (thread& t : threads) {
 //		t.join();
 //	}
-	cout << "..................................... " << real_thread_num <<" ......................................." << endl;
+	
+	chrono::system_clock::time_point endTime = chrono::system_clock::now();
+	chrono::microseconds microRunTime =
+			chrono::duration_cast<chrono::microseconds>(endTime - startTime);
+	double runTime = microRunTime.count() / 1000000.0;
 
-	imshow("Bild for Filteranwendung", image);
-	waitKey(100000);
+    cout << setprecision(8) << "time " << runTime << " seconds." << endl
+		 << flush;
+	cout << "There were " << real_thread_num << " threads." << endl;
+
+	// imshow("Bild for Filteranwendung", image);
+	// waitKey(100000);
 	exit(EXIT_SUCCESS);
 }
