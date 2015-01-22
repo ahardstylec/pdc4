@@ -48,27 +48,30 @@ using namespace std::chrono;
 
 using namespace cv;
 using namespace std;
-void blur(Mat& image, int i, int k)
+void blur(Mat& image, int i, int k, int times)
 {
 	try{
 		Mat subImg = image(Range(((image.rows/4)*(i)) , ((image.rows/4)*(i+1))),  Range(((image.cols/4)*(k)), ((image.cols/4)*(k+1)) ));
-		medianBlur(subImg,subImg, 97);	
-		//bitwise_not(subImg, subImg);	
+//        medianBlur(subImg,subImg, 97);
+        erode(subImg, subImg, Mat(), Point(-1, -1),times, BORDER_CONSTANT, morphologyDefaultBorderValue());
+        dilate(subImg, subImg, Mat(), Point(-1, -1), times, BORDER_CONSTANT, morphologyDefaultBorderValue());
 	}catch(...){};
-	
 }
 
 int main(int argc, char *argv[]) {
 
-	int threadnum = atoi(argv[1]);
-	// const int threadnum = 8;
+//	int threadnum = atoi(argv[1]);
+    int do_times= 1;
+    do_times = atoi(argv[1]);
+    cout << "do times "<< do_times<< endl;
+    const int threadnum = 8;
 	int real_thread_num= 0;
 	vector<thread>threads;
 	chrono::system_clock::time_point startTime = chrono::system_clock::now();
 	Mat image = imread(string(argv[2]));
 	// cout << image.cols << "x" << image.rows << endl;
 	omp_set_num_threads(threadnum);
-	int i;
+    int i;
 #pragma omp parallel for private(i) lastprivate(real_thread_num)
 	for(int i=0; i < threadnum;i++)
 	{
@@ -77,7 +80,7 @@ int main(int argc, char *argv[]) {
 	//		cout  << "WIDTH" << i << "="<< ((image.cols/4)*(k)) << "-" << ((image.cols/4)*(k+1)) << endl;
 	//		cout << "HEIGHT" << i << "="<< ((image.rows/4)*(i)) << "-" << ((image.rows/4)*(i+1)) << endl;
 	//		cout << "___________________________________" << endl;
-			blur(image, i, k);
+            blur(image, i, k, do_times);
 			//threads.push_back(thread([&](){blur(image, i, k);}));
 		}
 	}
@@ -94,7 +97,8 @@ int main(int argc, char *argv[]) {
 		 << flush;
 	cout << "There were " << real_thread_num << " threads." << endl;
 
-	// imshow("Bild for Filteranwendung", image);
-	// waitKey(100000);
+
+    imwrite( "image.jpg", image );
+    waitKey(100000);
 	exit(EXIT_SUCCESS);
 }
