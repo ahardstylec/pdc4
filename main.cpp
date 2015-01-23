@@ -48,45 +48,39 @@ using namespace std::chrono;
 
 using namespace cv;
 using namespace std;
-void blur(Mat& image, int i, int k, int times)
-{
-	try{
-		Mat subImg = image(Range(((image.rows/4)*(i)) , ((image.rows/4)*(i+1))),  Range(((image.cols/4)*(k)), ((image.cols/4)*(k+1)) ));
-//        medianBlur(subImg,subImg, 97);
-        erode(subImg, subImg, Mat(), Point(-1, -1),times, BORDER_CONSTANT, morphologyDefaultBorderValue());
-        dilate(subImg, subImg, Mat(), Point(-1, -1), times, BORDER_CONSTANT, morphologyDefaultBorderValue());
-	}catch(...){};
-}
 
 int main(int argc, char *argv[]) {
 
-//	int threadnum = atoi(argv[1]);
-    int do_times= 1;
+    int threadnum = atoi(argv[3]);
+    int do_times=1, tiles=0;
     do_times = atoi(argv[1]);
+    tiles = atoi(argv[2]);
     cout << "do times "<< do_times<< endl;
-    const int threadnum = 8;
+//    const int threadnum = 1;
 	int real_thread_num= 0;
 	vector<thread>threads;
 	chrono::system_clock::time_point startTime = chrono::system_clock::now();
-	Mat image = imread(string(argv[2]));
+    Mat image = imread(string(argv[4]));
 	// cout << image.cols << "x" << image.rows << endl;
 	omp_set_num_threads(threadnum);
-    int i;
-#pragma omp parallel for private(i) lastprivate(real_thread_num)
-	for(int i=0; i < threadnum;i++)
-	{
-		real_thread_num = omp_get_num_threads();
-		for(int k=0;k < threadnum;k++){
-	//		cout  << "WIDTH" << i << "="<< ((image.cols/4)*(k)) << "-" << ((image.cols/4)*(k+1)) << endl;
-	//		cout << "HEIGHT" << i << "="<< ((image.rows/4)*(i)) << "-" << ((image.rows/4)*(i+1)) << endl;
-	//		cout << "___________________________________" << endl;
-            blur(image, i, k, do_times);
-			//threads.push_back(thread([&](){blur(image, i, k);}));
-		}
-	}
-//	for (thread& t : threads) {
-//		t.join();
-//	}
+    int i,offset;
+     for(int k=0; k < do_times;k++){
+#pragma omp parallel for private(offset, i) lastprivate(real_thread_num)
+        for(int i=0; i < tiles;i++)
+        {
+
+                real_thread_num= omp_get_num_threads();
+        //		cout  << "WIDTH" << i << "="<< ((image.cols/4)*(k)) << "-" << ((image.cols/4)*(k+1)) << endl;
+        //		cout << "HEIGHT" << i << "="<< ((image.rows/4)*(i)) << "-" << ((image.rows/4)*(i+1)) << endl;
+        //		cout << "___________________________________" << endl;
+                offset = i>0 ? -2 : 0;
+                Mat subImg = image(Range(((image.rows/tiles)*(i))+offset , ((image.rows/tiles)*(i+1))),
+                                   Range(0 , image.cols));
+                try{
+                    erode(subImg, subImg, Mat(), Point(-1, -1), 1, 0, 0);
+                }catch(...){};
+        }
+    }
 	
 	chrono::system_clock::time_point endTime = chrono::system_clock::now();
 	chrono::microseconds microRunTime =
