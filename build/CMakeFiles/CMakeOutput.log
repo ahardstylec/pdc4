@@ -1,4 +1,4 @@
-The system is: Linux - 3.17.6-1-ARCH - x86_64
+The system is: Linux - 3.18.3-1-ARCH - x86_64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
 Build flags: -std=c++0x;;-g;-ftest-coverage;-fprofile-arcs;-std=c++0x;-std=c++0x;;-g;-ftest-coverage;-fprofile-arcs;-g;-ftest-coverage;-fprofile-arcs
@@ -8,82 +8,82 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.gcno"
-
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/3.1.0/CompilerIdCXX/a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.gcno"
+
+The CXX compiler identification is GNU, found in "/home/jakob/Repositorys/pdc4/build/CMakeFiles/3.1.1/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3148417276/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3148417276.dir/build.make CMakeFiles/cmTryCompileExec3148417276.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3148417276.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3148417276.dir/testCXXCompiler.cxx.o -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec3148417276
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3148417276.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec3148417276.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3148417276 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec139073427/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec139073427.dir/build.make CMakeFiles/cmTryCompileExec139073427.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec139073427.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec139073427.dir/testCXXCompiler.cxx.o -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec139073427
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec139073427.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec139073427.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec139073427 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1827775243/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1827775243.dir/build.make CMakeFiles/cmTryCompileExec1827775243.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1827775243
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1827775243.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1827775243 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec323374600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec323374600.dir/build.make CMakeFiles/cmTryCompileExec323374600.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec323374600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec323374600.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec323374600 -rdynamic  
 Es werden eingebaute Spezifikationen verwendet.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper
 Ziel: x86_64-unknown-linux-gnu
-Konfiguriert mit: /build/gcc-multilib/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-multilib --disable-werror --enable-checking=release
+Konfiguriert mit: /build/gcc/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --disable-multilib --disable-werror --enable-checking=release
 Thread-Modell: posix
 gcc-Version 4.9.2 20141224 (prerelease) (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1827775243' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccO7MIn1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1827775243 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec323374600' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVS8gVx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec323374600 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1827775243/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1827775243.dir/build.make CMakeFiles/cmTryCompileExec1827775243.dir/build]
-  ignore line: [make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten]
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1827775243]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1827775243.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1827775243 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec323374600/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec323374600.dir/build.make CMakeFiles/cmTryCompileExec323374600.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec323374600]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec323374600.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec323374600 -rdynamic  ]
   ignore line: [Es werden eingebaute Spezifikationen verwendet.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper]
   ignore line: [Ziel: x86_64-unknown-linux-gnu]
-  ignore line: [Konfiguriert mit: /build/gcc-multilib/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Konfiguriert mit: /build/gcc/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --disable-multilib --disable-werror --enable-checking=release]
   ignore line: [Thread-Modell: posix]
   ignore line: [gcc-Version 4.9.2 20141224 (prerelease) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1827775243' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccO7MIn1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1827775243 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec323374600' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVS8gVx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec323374600 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccO7MIn1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVS8gVx.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -98,7 +98,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1827775243] ==> ignore
+    arg [cmTryCompileExec323374600] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..]
-    arg [CMakeFiles/cmTryCompileExec1827775243.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec323374600.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -134,18 +134,18 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4111989989/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4111989989.dir/build.make CMakeFiles/cmTryCompileExec4111989989.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4111989989.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec4111989989.dir/feature_tests.cxx.o -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec4111989989
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4111989989.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec4111989989.dir/feature_tests.cxx.o  -o cmTryCompileExec4111989989 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec268488009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec268488009.dir/build.make CMakeFiles/cmTryCompileExec268488009.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec268488009.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec268488009.dir/feature_tests.cxx.o -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec268488009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec268488009.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec268488009.dir/feature_tests.cxx.o  -o cmTryCompileExec268488009 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:1cxx_alias_templates
@@ -205,18 +205,18 @@ make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/bui
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec727160732/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec727160732.dir/build.make CMakeFiles/cmTryCompileExec727160732.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec727160732.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec727160732.dir/feature_tests.cxx.o -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec727160732
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec727160732.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec727160732.dir/feature_tests.cxx.o  -o cmTryCompileExec727160732 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2966214514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2966214514.dir/build.make CMakeFiles/cmTryCompileExec2966214514.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2966214514.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec2966214514.dir/feature_tests.cxx.o -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2966214514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2966214514.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec2966214514.dir/feature_tests.cxx.o  -o cmTryCompileExec2966214514 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:1cxx_alias_templates
@@ -276,18 +276,18 @@ make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/bui
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3517476405/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3517476405.dir/build.make CMakeFiles/cmTryCompileExec3517476405.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3517476405.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec3517476405.dir/feature_tests.cxx.o -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec3517476405
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3517476405.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec3517476405.dir/feature_tests.cxx.o  -o cmTryCompileExec3517476405 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2600356922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2600356922.dir/build.make CMakeFiles/cmTryCompileExec2600356922.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2600356922.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec2600356922.dir/feature_tests.cxx.o -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2600356922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600356922.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec2600356922.dir/feature_tests.cxx.o  -o cmTryCompileExec2600356922 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: CXX_FEATURE:0cxx_alias_templates
@@ -345,18 +345,18 @@ make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/bui
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec36443032/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec36443032.dir/build.make CMakeFiles/cmTryCompileExec36443032.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec36443032.dir/src.cxx.o
-/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec36443032.dir/src.cxx.o -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec36443032
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec36443032.dir/link.txt --verbose=1
-/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec36443032.dir/src.cxx.o  -o cmTryCompileExec36443032 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2149382051/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2149382051.dir/build.make CMakeFiles/cmTryCompileExec2149382051.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2149382051.dir/src.cxx.o
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2149382051.dir/src.cxx.o -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2149382051
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2149382051.dir/link.txt --verbose=1
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec2149382051.dir/src.cxx.o  -o cmTryCompileExec2149382051 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 Source file was:
 
@@ -380,78 +380,78 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/3.1.0/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jakob/Repositorys/pdc4/build/CMakeFiles/3.1.1/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4056178402/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4056178402.dir/build.make CMakeFiles/cmTryCompileExec4056178402.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4056178402.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4056178402.dir/testCCompiler.c.o   -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec4056178402
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4056178402.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec4056178402.dir/testCCompiler.c.o  -o cmTryCompileExec4056178402 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3485933943/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3485933943.dir/build.make CMakeFiles/cmTryCompileExec3485933943.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3485933943.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3485933943.dir/testCCompiler.c.o   -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3485933943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3485933943.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec3485933943.dir/testCCompiler.c.o  -o cmTryCompileExec3485933943 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2442240567/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2442240567.dir/build.make CMakeFiles/cmTryCompileExec2442240567.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2442240567
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2442240567.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2442240567 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2664166976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2664166976.dir/build.make CMakeFiles/cmTryCompileExec2664166976.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2664166976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2664166976.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2664166976 -rdynamic  
 Es werden eingebaute Spezifikationen verwendet.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper
 Ziel: x86_64-unknown-linux-gnu
-Konfiguriert mit: /build/gcc-multilib/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-multilib --disable-werror --enable-checking=release
+Konfiguriert mit: /build/gcc/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --disable-multilib --disable-werror --enable-checking=release
 Thread-Modell: posix
 gcc-Version 4.9.2 20141224 (prerelease) (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2442240567' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cciRHYi9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2442240567 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2664166976' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccecixX3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2664166976 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2442240567/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2442240567.dir/build.make CMakeFiles/cmTryCompileExec2442240567.dir/build]
-  ignore line: [make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten]
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2442240567]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2442240567.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2442240567 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2664166976/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2664166976.dir/build.make CMakeFiles/cmTryCompileExec2664166976.dir/build]
+  ignore line: [make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2664166976]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2664166976.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2664166976 -rdynamic  ]
   ignore line: [Es werden eingebaute Spezifikationen verwendet.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper]
   ignore line: [Ziel: x86_64-unknown-linux-gnu]
-  ignore line: [Konfiguriert mit: /build/gcc-multilib/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-multilib --disable-werror --enable-checking=release]
+  ignore line: [Konfiguriert mit: /build/gcc/src/gcc-4.9-20141224/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-cloog-backend=isl --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --disable-multilib --disable-werror --enable-checking=release]
   ignore line: [Thread-Modell: posix]
   ignore line: [gcc-Version 4.9.2 20141224 (prerelease) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2442240567' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cciRHYi9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2442240567 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2664166976' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 -plugin /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccecixX3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2664166976 /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cciRHYi9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccecixX3.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -466,7 +466,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2442240567] ==> ignore
+    arg [cmTryCompileExec2664166976] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o] ==> ignore
@@ -475,7 +475,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..] ==> dir [/usr/lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..]
-    arg [CMakeFiles/cmTryCompileExec2442240567.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2664166976.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -504,18 +504,18 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3883530036/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3883530036.dir/build.make CMakeFiles/cmTryCompileExec3883530036.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3883530036.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec3883530036.dir/feature_tests.c.o   -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3883530036
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3883530036.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec3883530036.dir/feature_tests.c.o  -o cmTryCompileExec3883530036 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1547988626/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1547988626.dir/build.make CMakeFiles/cmTryCompileExec1547988626.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1547988626.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1547988626.dir/feature_tests.c.o   -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1547988626
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1547988626.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec1547988626.dir/feature_tests.c.o  -o cmTryCompileExec1547988626 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -525,18 +525,18 @@ make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/bui
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1240218509/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1240218509.dir/build.make CMakeFiles/cmTryCompileExec1240218509.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1240218509.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1240218509.dir/feature_tests.c.o   -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec1240218509
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1240218509.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec1240218509.dir/feature_tests.c.o  -o cmTryCompileExec1240218509 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4241143551/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4241143551.dir/build.make CMakeFiles/cmTryCompileExec4241143551.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4241143551.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec4241143551.dir/feature_tests.c.o   -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4241143551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4241143551.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec4241143551.dir/feature_tests.c.o  -o cmTryCompileExec4241143551 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:0c_function_prototypes
@@ -546,18 +546,18 @@ make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/bui
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4222946813/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4222946813.dir/build.make CMakeFiles/cmTryCompileExec4222946813.dir/build
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird betreten
-/usr/bin/cmake -E cmake_progress_report /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4222946813.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec4222946813.dir/feature_tests.c.o   -c /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec4222946813
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4222946813.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec4222946813.dir/feature_tests.c.o  -o cmTryCompileExec4222946813 -rdynamic 
-make[1]: Verzeichnis „/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/CMakeFiles/CMakeTmp“ wird verlassen
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1486320900/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1486320900.dir/build.make CMakeFiles/cmTryCompileExec1486320900.dir/build
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1486320900.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec1486320900.dir/feature_tests.c.o   -c /home/jakob/Repositorys/pdc4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1486320900
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1486320900.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec1486320900.dir/feature_tests.c.o  -o cmTryCompileExec1486320900 -rdynamic 
+make[1]: Verzeichnis „/home/jakob/Repositorys/pdc4/build/CMakeFiles/CMakeTmp“ wird verlassen
 
 
     Feature record: C_FEATURE:0c_function_prototypes

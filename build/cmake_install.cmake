@@ -1,4 +1,4 @@
-# Install script for directory: /home/andi/Studium/Master/1.Semester/PDS/comvis-10-1
+# Install script for directory: /home/jakob/Repositorys/pdc4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/home/jakob/Repositorys/pdc4/build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/home/andi/Studium/Master/1.Semester/PDS/comvis-10-1/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/home/jakob/Repositorys/pdc4/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

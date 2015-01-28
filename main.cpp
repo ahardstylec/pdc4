@@ -76,9 +76,9 @@ int main(int argc, char *argv[]) {
                 offset = i>0 ? -2 : 0;
                 Mat subImg = image(Range(((image.rows/tiles)*(i))+offset , ((image.rows/tiles)*(i+1))),
                                    Range(0 , image.cols));
-                try{
+                //try{
                     erode(subImg, subImg, Mat(), Point(-1, -1), 1, 0, 0);
-                }catch(...){};
+                //}catch(...){};
         }
     }
 	
